@@ -81,25 +81,25 @@ for ($j = 0 ; $j < $rows ; ++$j)
             <li>
               <div class="footer-submenu-title">Услуги</div>
               <ul class="footer-submenu">
-                <li><a href="../index.html">Кейтеринг</a></li>
-                <li><a href="../index.html">Заказать банкетный зал</a></li>
-                <li><a href="../index.html">Торты, пироги, пиццы на заказ</a></li>
+                <li><a href="index.html">Кейтеринг</a></li>
+                <li><a href="index.html">Заказать банкетный зал</a></li>
+                <li><a href="index.html">Торты, пироги, пиццы на заказ</a></li>
               </ul>
             </li>
             <li>
               <div class="footer-submenu-title">О нас</div>
               <ul class="footer-submenu">
-                <li><a href="../index.html">Акции</a></li>
-                <li><a href="../index.html">Новости</a></li>
-                <li><a href="../index.html">Отзывы</a></li>
+                <li><a href="index.html">Акции</a></li>
+                <li><a href="index.html">Новости</a></li>
+                <li><a href="index.html">Отзывы</a></li>
               </ul>
             </li>
             <li>
               <div class="footer-submenu-title">Контакты</div>
               <ul class="footer-submenu">
-                <li><a href="../index.html">Контакты</a></li>
-                <li><a href="../index.html">Мы на карте</a></li>
-                <li><a href="../index.html">Время работы</a></li>
+                <li><a href="index.html">Контакты</a></li>
+                <li><a href="index.html">Мы на карте</a></li>
+                <li><a href="index.html">Время работы</a></li>
               </ul>
             </li>
           </ul>
