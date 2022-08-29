@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: sandybrown;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.pos1 {
+  min-width: 115px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+.pos1 img {
+  height: auto;
+}
+.pos2 {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.pos2 h1 {
+  font-size: 3em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.bakery-home {
+  display: flex;
+  width: 100%;
+}
+.bakery-img {
+  background-image: url("../img/svegaya_vipechka.jpg");
+  font-size: x-large;
+  color: red;
+  width: 70%;
+  padding: 20px 30px 20px;
+  height: 80vh;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bakery-text {
+  padding: 20px;
+  width: 30%;
+  min-width: 300px;
+}

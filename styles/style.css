@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background: #111;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: sandybrown;
+}
+.pos1 {
+  min-width: 115px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+.pos1 img {
+  height: auto;
+}
+.pos2 {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.pos2 h1 {
+  font-size: 3em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* main */
+.advantage {
+  background-image: repeating-linear-gradient(
+    to right,
+    white 0px,
+    bisque 5px,
+    white 10px
+  );
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.row1 {
+  /* flex-wrap: wrap; */
+  width: 25%;
+  font-size: x-large;
+  min-width: 200px;
+}
+.row1 a {
+  text-transform: uppercase;
+}
+.row1 .text {
+  font-size: large;
+  word-break: keep-all;
+  line-break: strict;
+  hyphens: auto;
+  text-align: justify;
+  padding: 10px;
+  text-align-last: left;
+}
+.phrase {
+  padding: 20px 0 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.phrase,
+.phrase2 {
+  text-align: center;
+  color: #404040;
+  background-color: aqua;
+  margin: 0;
+}
+.phrase2 {
+  padding: 10px 0 10px;
+  font-size: 30px;
+}
+
+.nav_foot {
+  color: bisque;
+}
+.container_foot {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.container_foot h2 {
+  width: 30%;
+  padding: 0 20px;
+  margin: 5px;
+  color: aquamarine;
+}

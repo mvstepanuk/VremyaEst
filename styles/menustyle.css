@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  /* background: #111; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: sandybrown;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.pos1 {
+  min-width: 115px;
+  height: auto;
+  margin: 10px;
+  text-align: center;
+}
+.pos1 img {
+  height: auto;
+}
+.pos2 {
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}
+.pos2 h1 {
+  font-size: 3em;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* main */
+.menu1 {
+  display: flex;
+  width: 100%;
+  background-color: salmon;
+}
+.menu-phrase,
+.haySay {
+  padding: 10px 0 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #404040;
+  background-color: aqua;
+  margin: 0;
+}
+.haySay {
+  width: 20%;
+}
+.menu-phrase {
+  width: 30%;
+}
+.btn {
+  color: #1e2f40;
+  background-color: #fbb731;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  width: fit-content;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.menu-img {
+  width: 50%;
+  min-width: 300px;
+  background-image: url("../img/menu.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
