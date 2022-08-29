@@ -149,8 +149,3 @@ header {
 .footer-submenu a:active {
   color: #ccc;
 }
-.new_menu {
-  text-decoration: none;
-  padding: 20px;
-  color: red;
-}
