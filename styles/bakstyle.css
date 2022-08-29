@@ -60,3 +60,68 @@ header {
   width: 30%;
   min-width: 300px;
 }
+/* Секция footer */
+.site-footer ul {
+  list-style: none;
+}
+.site-footer {
+  color: bisque;
+  background-color: #131313;
+}
+
+.container_foot {
+  display: flex;
+}
+.container_foot .left-column {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 100px;
+}
+.container_foot .right-column {
+  width: 720px;
+  padding-top: 35px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  margin-top: 20%;
+}
+.logo-container h2 {
+  color: aquamarine;
+}
+.logo-container .logo {
+  margin-right: 20px;
+}
+.footer-menu {
+  display: flex;
+}
+
+.footer-menu > li {
+  width: 180px;
+  margin-right: 60px;
+}
+.footer-submenu-title {
+  display: block;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: aquamarine;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid #555555;
+}
+.footer-submenu > li {
+  margin-bottom: 10px;
+}
+.footer-submenu a {
+  text-decoration: none;
+  color: #888888;
+}
+.footer-submenu a:hover {
+  color: aqua;
+}
+.footer-submenu a:active {
+  color: #ccc;
+}
