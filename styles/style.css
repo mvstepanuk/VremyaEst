@@ -1,4 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@font-face {
+  font-family: "FiraSans";
+  src: url("/fonts/FiraSans-Regular.ttf"),
+       url("/fonts/FiraSans-Bold.ttf"),
+       url("/fonts/FiraSans-Italic.ttf");
+}
 
 * {
   margin: 0;
@@ -7,7 +12,7 @@
 }
 
 body {
-  font-family: "Muli", sans-serif;
+  font-family: "FiraSans", "Arial", sans-serif;
   background: #111;
   height: 100vh;
   justify-content: center;
@@ -88,6 +93,7 @@ header {
 .phrase2 {
   padding: 10px 0 10px;
   font-size: 30px;
+  font-style: italic;
 }
 /* Секция footer */
 .site-footer ul {
